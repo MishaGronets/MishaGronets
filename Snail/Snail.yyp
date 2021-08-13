@@ -10,6 +10,7 @@
     {"id":{"name":"o_scene1_bar","path":"objects/o_scene1_bar/o_scene1_bar.yy",},"order":2,},
     {"id":{"name":"o_popal","path":"objects/o_popal/o_popal.yy",},"order":0,},
     {"id":{"name":"s_street_streetlight","path":"sprites/s_street_streetlight/s_street_streetlight.yy",},"order":5,},
+    {"id":{"name":"Sprite47","path":"sprites/Sprite47/Sprite47.yy",},"order":9,},
     {"id":{"name":"s_happySnail","path":"sprites/s_happySnail/s_happySnail.yy",},"order":3,},
     {"id":{"name":"creslzad","path":"objects/creslzad/creslzad.yy",},"order":3,},
     {"id":{"name":"Object13","path":"objects/Object13/Object13.yy",},"order":4,},
