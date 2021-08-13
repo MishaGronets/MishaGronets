@@ -1,0 +1,1 @@
+speed_dialoge = 1;
