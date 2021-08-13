@@ -1,3 +1,3 @@
 global.LANGUAGE = "RU";
 
-room_goto(room_menu); //
+room_goto(room_bar); //

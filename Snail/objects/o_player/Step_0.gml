@@ -37,5 +37,9 @@ if (direction > 90 && direction <= 275)
 {
 	_xscale = -1;
 }
-
-my_xscale = lerp(my_xscale,_xscale,0.25);//изменяем xscale по _xscale
+if direction == 0 || direction ==360 {sprite_index = s_player_big}
+if direction == 90 {sprite_index = move_up}
+if direction == 180 {sprite_index = s_player_big48}
+if direction == 270 {sprite_index = ULITKAWNIZ}
+if speed > 0 {image_speed = 1} else {image_speed = 0 image_index = 0}
+//my_xscale = lerp(my_xscale,_xscale,0.25);//изменяем xscale по _xscale
