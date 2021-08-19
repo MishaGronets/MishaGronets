@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "s_player_midle",
-    "path": "sprites/s_player_midle/s_player_midle.yy",
+    "name": "s_player_left",
+    "path": "sprites/s_player_left/s_player_left.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_mask_player",
+    "path": "sprites/s_mask_player/s_mask_player.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

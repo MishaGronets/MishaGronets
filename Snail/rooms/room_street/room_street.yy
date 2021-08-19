@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_control_scene1","path":"objects/o_control_scene1/o_control_scene1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":23.0,"scaleY":23.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7A502660","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_scene1_trash","path":"objects/o_scene1_trash/o_scene1_trash.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1506.0,"y":540.0,"resourceVersion":"1.0","name":"inst_762676D3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_controller","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"s_rain","path":"sprites/s_rain/s_rain.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":-5.0,"vspeed":0.0,"stretch":false,"animationFPS":20.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Backgrounds_rain1","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"spriteId":{"name":"s_street_streetlight","path":"sprites/s_street_streetlight/s_street_streetlight.yy",},"colour":4294967295,"x":-100,"y":335,"htiled":true,"vtiled":false,"hspeed":-2.5,"vspeed":0.0,"stretch":false,"animationFPS":1.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Backgrounds_flashlight","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -32,6 +33,7 @@
   "instanceCreationOrder": [
     {"name":"inst_1EAF7F13","path":"rooms/room_street/room_street.yy",},
     {"name":"inst_7A502660","path":"rooms/room_street/room_street.yy",},
+    {"name":"inst_762676D3","path":"rooms/room_street/room_street.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

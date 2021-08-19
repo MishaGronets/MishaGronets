@@ -12,11 +12,25 @@ if (gamepad = 0) //не геймпад
 	_RIGHT = vk_right;
 	_LEFT = vk_left;	
 }
-
-direction = 90;
-speed = 2;
-move = 0;
-alarm[0]= 150;
+if (global.PL_STATE == 0)
+{
+	direction = 90;
+	speed = 4;
+	move = 0;
+	alarm[0]= 70;
+}
+if (global.PL_STATE == 1)
+{
+	x = 320;
+	y = 576;
+	move = 1;
+}
+if (global.PL_STATE == 2)
+{
+	x = 1056;
+	y = 576;
+	move = 1;
+}
 
 step = 2; //скорость
 shift = 0;//изначально 0
@@ -27,5 +41,5 @@ my_xscale = 1;//для рисования чтобы не трогать мас�
 
 state = 0;
 
-xx = 2072.176;
-yy = 239.5;
+xx = 547;
+yy = 220;

@@ -1,13 +1,13 @@
 if surface_exists(surf)
     {
-		draw_surface_stretched_ext(surf, 
+		draw_surface_stretched(surf, 
 		camera_get_view_x(view_camera[0]), 
 		camera_get_view_y(view_camera[0]), 
 		display_get_gui_width(), 
-		display_get_gui_height(),
-		c_white,
-		0);
+		display_get_gui_height());
+
     }
+	
 
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);

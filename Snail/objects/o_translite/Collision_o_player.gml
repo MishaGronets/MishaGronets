@@ -1,31 +1,12 @@
-if (state = 0)
+if (room == room_bar)
 {
-	state = 1;
-	
-	with(o_control_bar)
-	{
-		_x = 1366;
-		state = 1;
-	}
-	with(o_player)
-	{
-		direction = 180;
-		move = 0;
-	}
+	global.PL_STATE = 2;
+	global.PEREHOD = 0;
+	room_goto(room_trans);
 }
-
-if (state = 2)
+if (room == room_bar_subs)
 {
-	state = 3;
-	
-	with(o_control_bar)
-	{
-		_x = 0;
-		state = 1;
-	}
-	with(o_player)
-	{
-		direction = 0;
-		move = 0;
-	}
+	global.PL_STATE = 1;
+	global.PEREHOD = 1;
+	room_goto(room_trans);
 }

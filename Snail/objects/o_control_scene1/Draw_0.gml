@@ -46,6 +46,7 @@ if (shift = 1)
 {
 	if (speed_layer < 80)
 	{
+		o_scene1_trash.speed += 1;
 		speed_layer += 1;
 		
 		if (speed_layer >= 30)
@@ -60,12 +61,13 @@ if (shift = 2)
 {
 	if (speed_layer > 0 )
 	{
+		o_scene1_trash.speed -= 5;
 		speed_layer -= 5;
 		
 		if (speed_layer <= 5)
 		{
 			shift = 3;
-			instance_create_depth(1664,576,300,o_scene1_bar);
+			instance_create_depth(1664,448,300,o_scene1_bar);
 		}
 	}
 	

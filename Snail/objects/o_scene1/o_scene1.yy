@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_player_big",
-    "path": "sprites/s_player_big/s_player_big.yy",
+    "name": "s_player_right",
+    "path": "sprites/s_player_right/s_player_right.yy",
   },
   "solid": false,
   "visible": true,
